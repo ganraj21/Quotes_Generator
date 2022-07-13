@@ -17,6 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log(data);
         }
     }
+    
+      document.getElementById('social_media').onclick = function () {
+    location.href = 'https://www.instagram.com/one_motivational_quote/'
+  }
+
 
     // Attach an event listener to the `button`
     button.addEventListener("click", updateQuote);
