@@ -1,48 +1,72 @@
 body {
-    background: linear-gradient( to bottom right, #FDC639, #FF7C60);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #fdc639, #ff7c60);
+  overflow: hidden;
+}
+.nav_container {
+  display: flex;
+  height: 60px;
+  background-color: #212121;
+  font-family: Brush Script MT;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.nav_container h1 {
+  color: white;
+  margin: 9px 0px 0px 30px;
 }
 
 .container {
-    width: 95%;
-    height: 100vh;
-    display: flex;
-    text-align: center;
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
 }
 
 .card-body {
-    width: 900px;
-    height: 450px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 50px;
-    color: #FFFFFF;
-    background: #212121;
-    border-radius: 10px;
-    box-shadow: 2px 2px 9px #3d3d3d, -2px -2px 9px #3d3d3d;
+  width: 900px;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  color: #ffffff;
+  background: #212121;
+  border-radius: 10px;
+  box-shadow: 2px 2px 9px #3d3d3d, -2px -2px 9px #3d3d3d;
 }
 
 .card-body {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .card-body h2 {
-    margin-top: 1px;
-    position: relative;
+  margin-top: 1px;
+  position: relative;
 }
 
 .btn {
-    background-color: #FFFFFF;
-    color: #212121;
+  background-color: #ffffff;
+  color: #212121;
 }
 
-@media (max-width:480px) {
-    .card-body {
-        font-size: 0.6rem;
-    }
-    .card-body h2 {
-        font-size: 2 rem;
-    }
+@media (max-width: 480px) {
+  .nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav_container h1 {
+    margin: 0px;
+  }
+  .card-body {
+    font-size: 0.6rem;
+    margin-top: 20%;
+  }
+  .card-body h2 {
+    font-size: 2 rem;
+  }
 }
