@@ -8,7 +8,7 @@ body {
   display: flex;
   height: 60px;
   background-color: #212121;
-  font-family: Brush Script MT, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   flex-direction: row;
   justify-content: flex-start;
 }
@@ -61,7 +61,7 @@ body {
     justify-content: center;
   }
   .nav_container h1 {
-    font-family: Brush Script MT, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     margin: 0px;
   }
