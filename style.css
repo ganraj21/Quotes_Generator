@@ -62,7 +62,7 @@ body {
   }
   .nav_container h1 {
     font-family: Brush Script MT, Verdana, Geneva, Tahoma, sans-serif;
-
+    font-size: 24px;
     margin: 0px;
   }
   .card-body {
