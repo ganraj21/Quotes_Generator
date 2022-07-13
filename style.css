@@ -55,12 +55,12 @@ body {
 
 @media (max-width: 480px) {
   .nav_container {
-    font-family: Brush Script MT;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .nav_container h1 {
+    font-family: Brush Script MT;
     margin: 0px;
   }
   .card-body {
