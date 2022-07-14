@@ -72,7 +72,11 @@ img {
   margin-left: -590px;
   margin-top: -30px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  font-size: 21px;
 }
 .nqt {
   display: flex;
@@ -106,5 +110,11 @@ img {
   }
   .number {
     margin-right: -285px;
+  }
+  .start-quote {
+    margin-left: -200px;
+  }
+  i {
+    font-size: 18px;
   }
 }
