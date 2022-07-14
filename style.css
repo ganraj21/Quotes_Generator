@@ -63,17 +63,9 @@ blockquote {
   flex-direction: column;
   margin-top: -389px;
 }
-<<<<<<< HEAD
 .logo {
   height: 39px;
   vertical-align: middle;
-=======
-img {
-  height: 39px;
-  vertical-align: middle;
-  box-shadow: #ffffff;
-  color: white;
->>>>>>> 2c0fa75add8d923ceb5ce91b9119c7c7b57211d9
 }
 .start-quote {
   position: fixed;
