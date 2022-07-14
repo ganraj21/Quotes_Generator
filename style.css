@@ -56,7 +56,7 @@ blockquote {
 }
 .number {
   margin-right: -841px;
-  position: fixed;
+  position: absolute;
   display: flex;
   height: 50px;
   justify-content: center;
