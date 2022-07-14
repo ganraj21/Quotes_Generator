@@ -16,6 +16,7 @@ body {
   color: white;
   font-size: 29px;
   margin: 9px 0px 0px 30px;
+  cursor: pointer;
 }
 
 .container {
@@ -30,14 +31,15 @@ body {
   height: 450px;
   margin: auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 0 50px;
   color: #ffffff;
   background: #212121;
   border-radius: 10px;
-  box-shadow: 2px 2px 9px #3d3d3d, -2px -2px 9px #3d3d3d;
+  /* box-shadow: 2px 2px 9px #3d3d3d, -2px -2px 9px #3d3d3d; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .card-body {
@@ -49,6 +51,38 @@ body {
   position: relative;
 }
 
+blockquote {
+  border-left: none;
+}
+.number {
+  margin-right: -841px;
+  position: fixed;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -389px;
+}
+img {
+  height: 39px;
+  vertical-align: middle;
+  box-shadow: #ffffff;
+  color: white;
+}
+.start-quote {
+  position: fixed;
+  margin-left: -590px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.nqt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  width: 90%;
+}
 .btn {
   background-color: #ffffff;
   color: #212121;
@@ -71,5 +105,8 @@ body {
   }
   .card-body h2 {
     font-size: 2 rem;
+  }
+  .number {
+    margin-right: -285px;
   }
 }
