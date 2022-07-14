@@ -10,6 +10,13 @@
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Motivational Quotes Generator</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" type="image/x-icon" href="./youtube_icon.jpg" />
@@ -18,20 +25,29 @@
   <body>
     <nav>
       <div class="nav_container">
-       <h1 id="social_media">One Motivational Quote</h1>
+        <h1 id="social_media">One Motivational Quote</h1>
       </div>
     </nav>
     <div class="container">
       <div class="card-body">
-        <!-- <h2>Motivational Quotes</h2> -->
-        <blockquote class="blockquote mb-0">
-          <p>loading...</p>
-          <footer class="blockquote-footer">
-            <cite title="Source Title"></cite>
-          </footer>
-        </blockquote>
-        <div style="text-align: center">
-          <button type="button" class="btn">New Quotes</button>
+        <p class="number">
+          <img src="./logo.png" alt="tweetMe" title="TweetMe" id="tweetMe" />
+        </p>
+        <div class="nqt">
+          <!-- <h2>Motivational Quotes</h2> -->
+          <i
+            class="start-quote fas fa-quote-left icon-4x pull-left icon-muted"
+          ></i>
+          <blockquote class="blockquote">
+            <p>loading...</p>
+
+            <footer class="blockquote-footer">
+              <cite title="Source Title"></cite>
+            </footer>
+          </blockquote>
+          <div style="text-align: center">
+            <button type="button" class="btn">New Quotes</button>
+          </div>
         </div>
       </div>
     </div>
