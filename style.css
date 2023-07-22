@@ -5,6 +5,7 @@ body {
   overflow: hidden;
 }
 .nav_container {
+  width: 100%;
   display: flex;
   height: 60px;
   background-color: #212121;
@@ -15,7 +16,8 @@ body {
 .nav_container h1 {
   color: white;
   font-size: 29px;
-  margin: 9px 0px 0px 30px;
+  margin: 0px !important;
+  padding: 10px;
   cursor: pointer;
 }
 
@@ -32,10 +34,10 @@ body {
   margin: auto;
   display: flex;
   padding: 0 50px;
-  color: #ffffff;
-  background: #212121;
+  color: #212121;
+  background: #fff;
   border-radius: 10px;
-  /* box-shadow: 2px 2px 9px #3d3d3d, -2px -2px 9px #3d3d3d; */
+  box-shadow: 0px 0px 9px #3d3d3d;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -56,14 +58,14 @@ blockquote {
 }
 .number {
   margin-right: -841px;
-  position: fixed;
+  position: absolute;
   display: flex;
   height: 50px;
   justify-content: center;
   flex-direction: column;
   margin-top: -389px;
 }
-.logo {
+img {
   height: 39px;
   vertical-align: middle;
 }
@@ -72,7 +74,11 @@ blockquote {
   margin-left: -590px;
   margin-top: -30px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  font-size: 21px;
 }
 .nqt {
   display: flex;
@@ -85,7 +91,17 @@ blockquote {
   background-color: #ffffff;
   color: #212121;
 }
-
+@media (max-width: 972px) {
+  .nav_container {
+    width: 100%;
+  }
+  .number {
+    margin-right: -341px;
+  }
+  .start-quote {
+    margin-left: -350px;
+  }
+}
 @media (max-width: 480px) {
   .nav_container {
     display: flex;
@@ -106,5 +122,27 @@ blockquote {
   }
   .number {
     margin-right: -285px;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    align-content: flex-start;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+  }
+  .start-quote {
+    margin-left: -200px;
+  }
+  i {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+  .card-body {
+    height: 70%;
+  }
+  .number {
+    margin-right: -255px;
   }
 }
