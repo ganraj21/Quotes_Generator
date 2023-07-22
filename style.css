@@ -6,7 +6,6 @@ body {
 }
 .nav_container {
   width: 100%;
-  width: 100%;
   display: flex;
   height: 60px;
   background-color: #212121;
@@ -68,123 +67,121 @@ blockquote {
   margin-top: -389px;
 }
 img {
-  img {
-    height: 39px;
-    vertical-align: middle;
+  height: 39px;
+  vertical-align: middle;
+}
+.start-quote {
+  position: fixed;
+  margin-left: -590px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  font-size: 21px;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  font-size: 21px;
+}
+.nqt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  width: 90%;
+}
+.btn {
+  background-color: #ffffff;
+  color: #212121;
+}
+@media (max-width: 972px) {
+  .nav_container {
+    width: 100%;
+  }
+  .number {
+    margin-right: -341px;
   }
   .start-quote {
+    margin-left: -350px;
+  }
+}
+@media (max-width: 972px) {
+  .nav_container {
+    width: 100%;
+  }
+  .number {
+    margin-right: -341px;
+  }
+  .start-quote {
+    margin-left: -350px;
+  }
+}
+@media (max-width: 480px) {
+  .nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav_container h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    margin: 0px;
+  }
+  .card-body {
+    font-size: 0.6rem;
+    margin-top: 30%;
+  }
+  .card-body h2 {
+    font-size: 2 rem;
+  }
+  .number {
+    margin-right: -285px;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    align-content: flex-start;
+    justify-content: center;
+    overflow: hidden;
     position: fixed;
-    margin-left: -590px;
-    margin-top: -30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  }
+  .start-quote {
+    margin-left: -200px;
   }
   i {
-    font-size: 21px;
-    justify-content: center;
-    align-items: center;
+    font-size: 18px;
   }
-  i {
-    font-size: 21px;
+}
+
+@media (max-width: 380px) {
+  .card-body {
+    height: 70%;
   }
-  .nqt {
+  .number {
+    margin-right: -255px;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    align-content: center;
-    width: 90%;
+    width: 250px;
+    align-content: flex-start;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
   }
-  .btn {
-    background-color: #ffffff;
-    color: #212121;
+  .start-quote {
+    margin-left: -200px;
   }
-  @media (max-width: 972px) {
-    .nav_container {
-      width: 100%;
-    }
-    .number {
-      margin-right: -341px;
-    }
-    .start-quote {
-      margin-left: -350px;
-    }
+  i {
+    font-size: 18px;
   }
-  @media (max-width: 972px) {
-    .nav_container {
-      width: 100%;
-    }
-    .number {
-      margin-right: -341px;
-    }
-    .start-quote {
-      margin-left: -350px;
-    }
-  }
-  @media (max-width: 480px) {
-    .nav_container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .nav_container h1 {
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 24px;
-      margin: 0px;
-    }
-    .card-body {
-      font-size: 0.6rem;
-      margin-top: 30%;
-    }
-    .card-body h2 {
-      font-size: 2 rem;
-    }
-    .number {
-      margin-right: -285px;
-      display: flex;
-      align-items: center;
-      width: 250px;
-      align-content: flex-start;
-      justify-content: center;
-      overflow: hidden;
-      position: fixed;
-    }
-    .start-quote {
-      margin-left: -200px;
-    }
-    i {
-      font-size: 18px;
-    }
-  }
+}
 
-  @media (max-width: 380px) {
-    .card-body {
-      height: 70%;
-    }
-    .number {
-      margin-right: -255px;
-      display: flex;
-      align-items: center;
-      width: 250px;
-      align-content: flex-start;
-      justify-content: center;
-      overflow: hidden;
-      position: fixed;
-    }
-    .start-quote {
-      margin-left: -200px;
-    }
-    i {
-      font-size: 18px;
-    }
+@media (max-width: 380px) {
+  .card-body {
+    height: 70%;
   }
-
-  @media (max-width: 380px) {
-    .card-body {
-      height: 70%;
-    }
-    .number {
-      margin-right: -255px;
-    }
+  .number {
+    margin-right: -255px;
   }
 }
